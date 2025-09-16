@@ -1,0 +1,38 @@
+16/09/2025
+
+## react intro
+
+    What is React?
+
+    1) React is a JavaScript library (not a framework) developed by Facebook (Meta) for building user interfaces (UIs), especially Single Page Applications (SPAs).
+
+    2) It helps developers build reusable UI components that update efficiently when data changes.
+
+    Instead of reloading a whole webpage when something changes, React updates only the parts of the UI that need to change.
+
+    -------
+    Why do we need React?
+
+	It makes UI development faster, cleaner, and more efficient.
+
+	Provides a better user experience with smooth updates without page reloads.
+
+## structure
+
+## import export
+## styleing
+    global files
+    external files
+    module.css files
+    inline css
+    object way styleing
+
+## props
+
+    Props stands for properties.
+    They are inputs to React components, like arguments to a function.
+    Props let you pass data from a parent component → child component.
+    They are read-only (child cannot modify props directly).
+    
+        Props method
+        destructuring props
