@@ -36,3 +36,31 @@
     
         Props method
         destructuring props
+
+## useState 
+
+    useState is a react hook , the data that changes over time 
+    (eg.. user input, API response)
+
+    syntex:
+        const[statevariable,setStateVariable]=useState(initial value)
+
+        initial value---starting value
+        statevariable----current value
+        setStateVariable--- to update current value
+
+
+## conditional rendering
+
+        conditional rendering means showing or hiding parts 
+        of UI based on some conditions.
+
+        ## ternary operator
+        ## logical operator
+
+## list rendering
+
+        rendering multiple items dynamically useing .map(),reduce()....
+
+        
+
