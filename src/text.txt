@@ -63,4 +63,17 @@
         rendering multiple items dynamically useing .map(),reduce()....
 
         
+## useEffect()
 
+    useEffectis a react hook, that lets you perform side effect 
+    in functional components.
+    side effect are tasks that happends outside the normal react rendering process 
+
+        fetching data from API
+        Updating the browser DOM manually
+
+    useEffect(()=>{
+
+        //code
+        
+    },[dependencies 1,dependencies 2....])

@@ -8,6 +8,8 @@ export default function ListRendering() {
     { id: 2, name: "kumar" },
     { id: 3, name: "sans" },
   ];
+  console.log(fruits);
+
   return (
     <div>
       <ul>

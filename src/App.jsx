@@ -3,6 +3,10 @@ import UsestateHook from "./component/UsestateHook";
 import ConditionalRender from "./component/ConditionalRender";
 import ListRendering from "./component/ListRendering";
 import Darkmode from "./component/Darkmode";
+import Field from "./component/Field";
+import MultipleInput from "./component/MultipleInput";
+import Form from "./component/Form";
+import UseEffectHook from "./component/UseEffectHook";
 
 export default function App() {
   const [log, setLog] = useState(true);
@@ -12,7 +16,11 @@ export default function App() {
       <button onClick={() => setLog(!log)}>button</button>
 
       <ListRendering />
-      <Darkmode/>
+      <Darkmode />
+      <Field />
+      <MultipleInput />
+      <Form />
+      <UseEffectHook />
     </div>
   );
 }
