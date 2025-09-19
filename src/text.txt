@@ -77,3 +77,12 @@
         //code
         
     },[dependencies 1,dependencies 2....])
+
+## useref()
+
+    useref is react hook that gives you a box(.current) you can store anydata in---
+    like num,string,object,array,function....
+
+    that value persists between rendering
+
+    Updating it does't cause your component to re-rendering
